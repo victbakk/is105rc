@@ -5,7 +5,7 @@ import (
 )
 
 // Test som tester PutAllB
-func TestKyoHsB(t *testing.T) {
+func TestPut(t *testing.T) {
 	wanted := "Sts Ky:true | Sts Rev:false | Sts Korn:false | Sts HS:true"
 	got := BoatInfo
 	if got != wanted {
